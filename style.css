@@ -192,6 +192,7 @@ a.link {
 
 /* WHY CHOOSE US SECTION CSS PART */
 .why-choose-us {
+    margin-bottom: 10px;
     background: #66B8FC;
     color: #fff;
 }
