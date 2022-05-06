@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* CUSTOM CSS BEGAIN */
+section {
+    margin-bottom: 7px;
+    padding: 50px 0px;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.width-size {
+    width: 50%;
+}
+
+a.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: linear-gradient(0deg, #ff5200 0%, #f6a160 100%);
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #fff;
+    box-shadow: 1px 2px 3px #f6a260;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.text-color {
+    color: #ff5200;
+}
+
+/* BANNER SECTION CSS PART */
+
+.banner-text h1 {
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+    padding-left: 20px;
+}
+
+.banner-text h1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 16px;
+    background: #ff5200;
+    width: 2px;
+    height: 109px;
+    border: 1px solid #ff5200;
+    border-radius: 20px;
+}
+
+.banner-text p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #767676;
+    width: 440px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.banner-img img {
+    width: 72%;
+    margin-left: 10%;
+}
+
+/* MY MISSION SECTION CSS PART */
+.my-mission-section {
+    background: #fbfcff;
+}
+
+.my-mission-section h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.my-mission-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-mission-items {
+    width: 100%;
+    padding: 30px 20px;
+    background: #fff;
+    margin-right: 4%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #e3e3e2;
+    height: 310px;
+}
+
+.my-mission-items icons img {
+    width: 50%;
+}
+
+.icon img {
+    width: 40%;
+}
+
+#bg-color1 {
+    background: antiquewhite;
+}
+
+#bg-color2 {
+    background: #ffeeee;
+}
+
+#bg-color3 {
+    background: #FFF4D6;
+}
+
+.my-mission-content h4 {
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.my-mission-content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #434343;
+    line-height: 22px;
+}
+
+/* DEVELOP SECTION CSS PART */
+.develop-img img {
+    width: 70%;
+}
+
+.develop-content {
+    margin-left: -50px;
+}
+
+.develop-content h1 {
+    font-size: 40px;
+    line-height: 20px;
+    display: block;
+    margin-bottom: 45px;
+}
+
+.develop-content p {
+    font-size: 16px;
+    color: #767676;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/* COMMUNITY SECTION CSS PART */
+.community-section {
+    background: #fbfcff;
+}
+
+.community-img img {
+    width: 70%;
+}
+
+.community-content h1 {
+    font-size: 40px;
+    line-height: 20px;
+    display: block;
+    margin-bottom: 45px;
+}
+
+.community-content p {
+    font-size: 16px;
+    color: #767676;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.community-img img {
+    margin-left: 140px;
+}
+
+/* WHY CHOOSE US SECTION CSS PART */
+.why-choose-us {
+    background: #66B8FC;
+    color: #fff;
+}
+
+.why-choose-title h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.why-choose-us-items {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+.why-choose-us-items h3 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.why-choose-us-items p {
+    font-size: 18px;
+}
+
+/* FOOTER SECTION CSS PART  */
+footer {
+    background: #333;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+footer h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+footer p {
+    color: #ddd;
+}
